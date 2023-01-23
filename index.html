@@ -5,6 +5,179 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Product Landing Page</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        />
+        <link rel="stylesheet" href="styles.css" />
     </head>
-    <body></body>
+    <body>
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="img/logo.png" alt="chef" />
+                <h1>JB's</h1>
+            </div>
+            <nav id="nav-bar">
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="#reviews">Reviews</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li>
+                        <a class="nav-link" href="#how-to-order"
+                            >How to Order</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="hero">
+                <img src="img/hero.jpg" alt="Product image" />
+            </div>
+            <section class="homepage">
+                <h1 class="title">Pangasinan's #1 Bagoong</h1>
+                <div class="features">
+                    <i class="fa fa-check"></i>
+                    <p>High Quality Ingredients</p>
+                </div>
+                <div class="features">
+                    <i class="fa fa-check"></i>
+                    <p>No Preservatives</p>
+                </div>
+                <div class="features">
+                    <i class="fa fa-check"></i>
+                    <p>Trusted since 1963</p>
+                </div>
+                <a href="" class="order-link">
+                    <h1 class="order-title">Order Now</h1>
+                </a>
+                <p class="title-text">
+                    JB Bernal Bagoong is open for dealership!
+                </p>
+            </section>
+            <section id="reviews">
+                <h1 class="reviews-title">What Customers Say</h1>
+                <div class="reviews-customer">
+                    <img
+                        src="img/product-1.png"
+                        alt="customer's review photo"
+                    />
+                    <div>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                        Perfect na pangpaalat at pangpalasa ng mga ulam kung
+                        hindi naman allergic sa mga fermented sauces. Mabango,
+                        malasa at matagal ang expiration.
+                    </p>
+                </div>
+                <div class="reviews-customer">
+                    <img
+                        src="img/product-2.png"
+                        alt="customer's review photo"
+                    />
+                    <div>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                        Genuine bagoong... 100% pure. consistent ang quality...
+                        keep it up.
+                    </p>
+                </div>
+                <div class="reviews-customer">
+                    <img
+                        src="img/product-1.png"
+                        alt="customer's review photo"
+                    />
+                    <div>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                        Masarap siya. tinikman ko kaagad sobrang miss ko na kasi
+                        makakain ng bagoong. super happy na thank you seller.
+                    </p>
+                </div>
+            </section>
+            <section class="video">
+                <iframe
+                    id="video"
+                    width="1280"
+                    height="720"
+                    src="https://www.youtube.com/embed/IsqofbYVLl4"
+                    title="Bagoong in Lingayen Pangasinan | JB Bagoong"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                ></iframe>
+            </section>
+            <section id="pricing">
+                <div class="price">
+                    <h1 class="price-title">JB Fish Sauce Boneless</h1>
+                    <p>₱120</p>
+                    <img src="img/price-1.jpg" alt="JB bagoong image" />
+                    <p class="price-class">Class A</p>
+                    <a href="#" class="buy-now">Buy Now</a>
+                </div>
+                <div class="price">
+                    <h1 class="price-title">JB Fish Sauce Boneless</h1>
+                    <p>₱120</p>
+                    <img src="img/price-2.jpg" alt="JB bagoong image" />
+                    <p class="price-class">Class B</p>
+                    <a href="#" class="buy-now">Buy Now</a>
+                </div>
+                <div class="price">
+                    <h1 class="price-title">JB Fish Sauce Boneless</h1>
+                    <p>₱120</p>
+                    <img src="img/price-3.jpg" alt="JB bagoong image" />
+                    <p class="price-class">Class C</p>
+                    <a href="#" class="buy-now">Buy Now</a>
+                </div>
+            </section>
+            <section id="how-to-order">
+                <h1 class="how-to-order-title">How to Order?</h1>
+                <form
+                    action="https://www.freecodecamp.com/email-submit"
+                    id="form"
+                >
+                    <input type="text" placeholder="Enter your full name" required/>
+                    <input
+                        id="email"
+                        required
+                        name="email"
+                        type="email"
+                        placeholder="Enter your email address"
+                    />
+                    <input id="submit" type="submit" value="Get Started" />
+                </form>
+                <p>
+                    JB Bagoong is open for dealership! Inquire now to learn more
+                    about it.
+                </p>
+            </section>
+        </main>
+        <footer id="footer">
+            <ul class="footer-list">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <p>Copyright 2016, Original JB Bagoong</p>
+        </footer>
+    </body>
 </html>
